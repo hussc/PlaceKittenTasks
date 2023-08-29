@@ -11,6 +11,11 @@
 		E4B1BEB22A9DA151006BD0E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1BEB12A9DA151006BD0E2 /* ContentView.swift */; };
 		E4B1BEB42A9DA153006BD0E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B1BEB32A9DA153006BD0E2 /* Assets.xcassets */; };
 		E4B1BEB72A9DA153006BD0E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B1BEB62A9DA153006BD0E2 /* Preview Assets.xcassets */; };
+		E4B1BEBE2A9DA17D006BD0E2 /* AllKittensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1BEBD2A9DA17D006BD0E2 /* AllKittensView.swift */; };
+		E4B1BEC32A9DA1B9006BD0E2 /* View+ContextTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1BEC22A9DA1B9006BD0E2 /* View+ContextTask.swift */; };
+		E4B1BEC52A9DA1BE006BD0E2 /* View+ActionTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1BEC42A9DA1BE006BD0E2 /* View+ActionTask.swift */; };
+		E4B1BEC82A9DA515006BD0E2 /* KittenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1BEC72A9DA515006BD0E2 /* KittenView.swift */; };
+		E4B1BECA2A9DA594006BD0E2 /* KittensDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1BEC92A9DA594006BD0E2 /* KittensDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		E4B1BEB12A9DA151006BD0E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4B1BEB32A9DA153006BD0E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B1BEB62A9DA153006BD0E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4B1BEBD2A9DA17D006BD0E2 /* AllKittensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllKittensView.swift; sourceTree = "<group>"; };
+		E4B1BEC22A9DA1B9006BD0E2 /* View+ContextTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ContextTask.swift"; sourceTree = "<group>"; };
+		E4B1BEC42A9DA1BE006BD0E2 /* View+ActionTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ActionTask.swift"; sourceTree = "<group>"; };
+		E4B1BEC72A9DA515006BD0E2 /* KittenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenView.swift; sourceTree = "<group>"; };
+		E4B1BEC92A9DA594006BD0E2 /* KittensDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittensDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,12 @@
 		E4B1BEAE2A9DA151006BD0E2 /* PlaceKittenTasks */ = {
 			isa = PBXGroup;
 			children = (
+				E4B1BEC12A9DA1A8006BD0E2 /* Helper Views */,
 				E4B1BEAF2A9DA151006BD0E2 /* PlaceKittenTasksApp.swift */,
 				E4B1BEB12A9DA151006BD0E2 /* ContentView.swift */,
+				E4B1BEBD2A9DA17D006BD0E2 /* AllKittensView.swift */,
+				E4B1BEC72A9DA515006BD0E2 /* KittenView.swift */,
+				E4B1BEC92A9DA594006BD0E2 /* KittensDataSource.swift */,
 				E4B1BEB32A9DA153006BD0E2 /* Assets.xcassets */,
 				E4B1BEB52A9DA153006BD0E2 /* Preview Content */,
 			);
@@ -65,6 +79,15 @@
 				E4B1BEB62A9DA153006BD0E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4B1BEC12A9DA1A8006BD0E2 /* Helper Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4B1BEC22A9DA1B9006BD0E2 /* View+ContextTask.swift */,
+				E4B1BEC42A9DA1BE006BD0E2 /* View+ActionTask.swift */,
+			);
+			path = "Helper Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +162,11 @@
 			files = (
 				E4B1BEB22A9DA151006BD0E2 /* ContentView.swift in Sources */,
 				E4B1BEB02A9DA151006BD0E2 /* PlaceKittenTasksApp.swift in Sources */,
+				E4B1BEBE2A9DA17D006BD0E2 /* AllKittensView.swift in Sources */,
+				E4B1BEC32A9DA1B9006BD0E2 /* View+ContextTask.swift in Sources */,
+				E4B1BECA2A9DA594006BD0E2 /* KittensDataSource.swift in Sources */,
+				E4B1BEC52A9DA1BE006BD0E2 /* View+ActionTask.swift in Sources */,
+				E4B1BEC82A9DA515006BD0E2 /* KittenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
